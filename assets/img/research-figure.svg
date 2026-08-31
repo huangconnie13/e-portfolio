@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img" aria-label="Illustrative graphic representing blood pressure monitoring research">
+  <rect width="900" height="380" fill="#EEF5F8"/>
+
+  <!-- horizontal guide lines -->
+  <g stroke="#D2E1E9" stroke-width="1">
+    <line x1="60" y1="90" x2="840" y2="90"/>
+    <line x1="60" y1="170" x2="840" y2="170"/>
+    <line x1="60" y1="250" x2="840" y2="250"/>
+    <line x1="60" y1="330" x2="840" y2="330"/>
+  </g>
+
+  <!-- axis -->
+  <line x1="60" y1="60" x2="60" y2="330" stroke="#B7CFDB" stroke-width="2"/>
+  <line x1="60" y1="330" x2="840" y2="330" stroke="#B7CFDB" stroke-width="2"/>
+
+  <!-- stylized BP waveform -->
+  <polyline
+    points="60,260 130,260 155,140 180,300 205,180 230,260 300,260 370,260 395,120 420,310 445,170 470,260 540,260 610,260 635,130 660,300 685,175 710,260 780,260 840,260"
+    fill="none" stroke="#4E7C99" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- gauge circle motif -->
+  <circle cx="760" cy="120" r="46" fill="none" stroke="#8FB2C5" stroke-width="8"/>
+  <path d="M760 120 L790 92" stroke="#365A70" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="760" cy="120" r="6" fill="#365A70"/>
+
+  <!-- caption baked into figure -->
+  <text x="60" y="360" font-family="Inter, Arial, sans-serif" font-size="15" fill="#4C6572">
+    Illustrative graphic — replace with a real chart or figure from the NHANES analysis
+  </text>
+</svg>
